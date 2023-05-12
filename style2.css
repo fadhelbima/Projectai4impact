@@ -1,0 +1,192 @@
+
+body{
+    background: url(Gradasi.png);
+    
+    
+    background-repeat : no-repeat;
+}
+
+
+.sisikanan{
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 430px;
+    height: 350px;
+    z-index: 1;
+}
+.tengah{
+    display: flex;
+    position: fixed;
+    left: 310px;
+    top: 0;
+    width: 600px;
+    height: 300px;
+    z-index: 2;
+}
+
+.kiri{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 360px;
+    height: 360px;
+    z-index: 3;
+}
+.robot2{
+    display: flex;
+    position: fixed;
+    bottom: 1px;
+    left: 700px;
+    height: 600px;
+    width: 600px;
+    z-index: 4;
+    animation: melayang 3s infinite;
+}
+@keyframes melayang {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+.ellips2{
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    left: 76%;
+    z-index: 2;
+    width: 230px;
+    
+}
+.bubbles{
+    display: flex;
+    position: fixed;
+    bottom: 235px;
+    height: 450px;
+    right: 90px;
+    z-index: 3;
+    width: 900px;
+
+}
+.text2{
+    display: flex;
+    position: fixed;
+    z-index: 5;
+    top: 135px;
+    left: 605px;
+    width: 350px;
+
+}
+.buttonbg2{
+    display: flex;
+    position: fixed;
+    width: 380px;
+    height: 85px;
+    bottom: 170px;
+    left: 450px;
+    box-shadow: 5px 10px 10px rgb(90, 88, 88);
+    border-radius: 18px;
+    transition: box-shadow 0.10s,border 0.10s,border-radius 0.10s;
+}
+.buttonbg2:hover{
+    border: solid black 4px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px rgb(136, 0, 199);
+
+}
+
+.buttonbg3{
+    display: flex;
+    position: fixed;
+    width: 380px;
+    height: 85px;
+    bottom: 50px;
+    left: 450px;
+    box-shadow: 5px 10px 10px rgb(90, 88, 88);
+    border-radius: 18px;
+
+}
+.buttonbg3:hover{
+    border: solid black 4px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px rgb(136, 0, 199);
+    transition: box-shadow 0.10s,border 0.10s,border-radius 0.10s;
+}
+.rekomendasi{
+    display: flex;
+    position: fixed;
+    width: 360px;
+    bottom: 196px;
+    left: 460px;
+}
+
+.aboutus{
+    display: flex;
+    position: fixed;
+    width: 350px;
+    bottom: 72px;
+    left: 462.5px;
+    
+}
+
+.robotype2{
+    display: flex;
+    position: fixed;
+    bottom: 27.5%;
+    left: 350px;
+    width: 70px;
+    z-index: 4;
+    border: solid black 2px;
+    border-radius: 50%;
+    box-shadow: 3px 6px 12px rgb(90, 88, 88);
+}
+.robotype2:hover{
+    border-radius: 50%;
+    box-shadow: 3px 6px 12px rgb(136, 0, 199);
+    transition: box-shadow 0.10s,border 0.10s,border-radius 0.10s;
+}
+
+.tentangkamibot{
+    display: flex;
+    position: fixed;
+    bottom: 8.7%;
+    left: 355px;
+    width: 55px;
+    z-index: 4;
+    border: solid black 2px;
+    border-radius: 10%;
+    box-shadow: 3px 6px 12px rgb(90, 88, 88);
+}
+.tentangkamibot:hover{
+    border-radius: 10%;
+    box-shadow: 3px 6px 12px rgb(136, 0, 199);
+    transition: box-shadow 0.10s,border 0.10s,border-radius 0.10s;
+}
+
+.kembali{
+    display: fixed;
+    position: fixed;
+    bottom: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    height: 50px ;
+    width: 150px;
+    background:radial-gradient(circle at top left,orange,yellow);
+    box-shadow: 3px 6px 12px rgb(90, 88, 88);
+    cursor: pointer;
+    transition: transfrom 1000ms;
+}
+.kembali:hover,
+.kembali:focus-visible {
+    transform: translateY(-1.75rem);
+    transition: transform 250ms;
+}

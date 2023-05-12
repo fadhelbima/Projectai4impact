@@ -1,0 +1,63 @@
+body{
+    background: url(Background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.robot{
+    display: flex;
+    position: fixed;
+    bottom: 8%;
+    left: 50%;
+    height: 600px;
+    width: 600px;
+    z-index: 2;
+    animation: melayang 3s infinite;
+}
+@keyframes melayang {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+.shadow{
+    display: flex;
+    position: fixed;
+    bottom: 35px;
+    left: 75%;
+    z-index: 1;
+    width: 230px;
+}
+.buttonbg{
+    display: flex;
+    position: fixed;
+    width: 450px;
+    height: 85px;
+    bottom: 120px;
+    left: 20%;
+}
+.started{
+    display: flex;
+    position: fixed;
+    bottom: 140px;
+    left: 23.9%;
+    height: 7.3%;
+}
+.assistant{
+    display: flex;
+    position: fixed;
+    bottom: 250px;
+    left: 100px;
+}
+.robotop{
+    display: flex;
+    position: fixed;
+    top: 80px;
+    left: 300px;
+
+}
